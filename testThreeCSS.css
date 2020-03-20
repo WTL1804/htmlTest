@@ -1,0 +1,65 @@
+/*#demo1{*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color : yellow;*/
+/*}*/
+/*父子选择器/派生选择器*/
+/*直接子元素选择器 > */
+/*div > em{*/
+/*    background-color:red;*/
+/*}*/
+/**/
+/*section div ul li a em {*/
+/*    background-color:red;*/
+/*}*/
+/*并列选择器 不加空格*/
+/*div.demo {*/
+/*    background-color:red;*/
+/*}*/
+/*#only {*/
+/*    background-color:red;*/
+/*}*/
+/*.content em{*/
+/*    background-color:yellow;*/
+/*}*/
+/*.wrapper > .content > .box {*/
+/*    background-color:green;*/
+/*}*/
+/**/
+/*div #idP {*/
+/*    background-color:red;*/
+/*}*/
+/*div .classP#idP{*/
+/*    background-color:green;*/
+/*}*/
+
+/*em, strong, span {*/
+/*    background-color:red;*/
+/*}*/
+
+/*.demo1 {*/
+/*    background-color :red;*/
+/*}*/
+/*.demo2 {*/
+/*    background-color: green;*/
+/*}*/
+/*.demo1, .demo2 {*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*}*/
+/*设置的字体是字体的高*/
+div {
+    font-size:25px;
+    font-weight:normal;
+    font-style:normal;
+    font-family:arial;
+    color:rgb(0, 255, 255);
+    border:10px solid black;
+    border-left-color:red;
+    border-right-color:green;
+    
+        /*  boder-width border-style:solid实体 dotteds虚线  */
+}
+
+/*r           g           b*/
+/*00-ff     00-ff       00-ff*/
