@@ -1,0 +1,145 @@
+/*span {*/
+/*    text-decoration: line-through;*/
+/*}*/
+/*伪类选择器*/
+/*em 像素的基本单位*/
+/*display：inline、block、inline——block*/
+/*a:hover {*/
+/*    background-color:yellow;*/
+/*    text-decoration:none;*/
+/*}*/
+/*img {*/
+/*    width:100px;*/
+/*    */
+/*}*/
+/*.box1{*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:red;*/
+/*}*/
+/*.box2 {*/
+/*    width:200px;*/
+/*    height:200px;*/
+/*    background-color:green;*/
+/*}*/
+/*.box3 {*/
+/*    width:300px;*/
+/*    height:300px;*/
+/*    background-color: gray;*/
+/*}*/
+/*.box4 {*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:green;*/
+/*}*/
+/*.box5 {*/
+/*    width:200px;*/
+/*    height:200px;*/
+/*    background-color:red;*/
+/*}*/
+/*.red {*/
+/*    background-color:red;*/
+/*}*/
+/*.green {*/
+/*    background-color:gray;*/
+/*}*/
+/*.size1 {*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*}*/
+/*.size2 {*/
+/*    width:200px;*/
+/*    height:200px;*/
+/*}*/
+/*.size3 {*/
+/*    width:300px;*/
+/*    height:300px;*/
+/*}*/
+/*em {*/
+/*    font-style: normal;*/
+/*    color:#cc0;*/
+/*}*/
+/*初始化所有化*/
+/** {*/
+/*    padding:0px;*/
+/*    margin:0px;*/
+/*}*/
+/*
+ 盒子三大部分
+ 盒子壁 border
+ 内边距 padding
+ 外边距  margin
+ 内容 content
+ */
+/*div {*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    padding:10px;*/
+/*    border:10px solid black;*/
+/*    background-color:red;*/
+/*    margin:10px;*/
+/*}*/
+
+/*.wrapper {*/
+/*    border:10px solid green;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:red;*/
+/*    padding:100px 25px 150px 200px;*/
+/**/
+/*}*/
+/* 上右下左*/
+/*三个值 上/左右一个值控制俩个属性/下*/
+/*.content2 {*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:black;*/
+/*}*/
+/*div {*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:red;*/
+/*    border:10px solid black;*/
+/*    padding:10px 20px 30px;*/
+/*    margin:10px 20px;*/
+/*}*/
+/*盒模型计算不加margin*/
+/*relwidth:160px;*/
+/*realheight:160px;*/
+/*定位*/
+/*层模型*/
+/*div {*/
+/*    position:absolute;*/
+/*    left:100px;*/
+/*    top:100px;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:red;*/
+/*}*/
+/*默认margin 8px;*/
+/*.wrapper {*/
+/**/
+/*    margin-left:100px;*/
+/*    width:200px;*/
+/*    height:200px;*/
+/*    background-color:orange;*/
+/*}*/
+/*.content2 {*/
+/*    margin-left:100px;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:black;*/
+/*}*/
+/*.box {*/
+/*    position:absolute;*/
+/*    left:50px;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background-color:yellow;*/
+/*}*/
+div {
+    width:100px;
+    height:100px;
+    background-color:red;
+    
+}
