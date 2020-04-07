@@ -1,0 +1,217 @@
+* {
+    margin:0;
+    padding:0;
+    color:#424242;
+}
+/*.plat {*/
+/*    position: absolute;*/
+/*    height: 186px;*/
+/*    width: 380px;*/
+/*    left:50%;*/
+/*    top:50%;*/
+/*    margin-left: -190px;*/
+/*    margin-right:93px*/
+/*}*/
+/*一直剧中*/
+/*left:50%;*/
+/*top:50%;*/
+/*margin-left: -190px;*/
+/*margin-right:93px*/
+/*z-index 设置图层*/
+/*.circle1,*/
+/*.circle2,*/
+/*.circle3,*/
+/*.circle4,*/
+/*.circle5 {*/
+/*    position:absolute;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    border:10px solid black;*/
+/*    border-radius:50%;*/
+/*}*/
+/*.circle1 {*/
+/*    border-color:red;*/
+/*    left:0;*/
+/*    top:0;*/
+/*}*/
+/*.circle2 {*/
+/*    border-color:green;*/
+/*    left:130px;*/
+/*    top:0;*/
+/*}*/
+/*.circle3 {*/
+/*    border-color:yellow;*/
+/*    left:260px;*/
+/*    top:0;*/
+/*    z-index:3;*/
+/*}*/
+/*.circle4 {*/
+/*    border-color:blue;*/
+/*    left:65px;*/
+/*    top:70px;*/
+/*}*/
+/*.circle5 {*/
+/*    border-color:purple;*/
+/*    left:195px;*/
+/*    top:70px;*/
+/*}*/
+/*俩栏布局*/
+/*.right {*/
+/*    position:absolute;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:#fcc;*/
+/*    opacity:0.5;*/
+/*    right:0px;*/
+/*}*/
+/*.left {*/
+/*    height:100px;*/
+/*    margin-right:100px;*/
+/*    background-color:#123;*/
+/*}*/
+/*.wrapper {*/
+/*    margin-left:100px;*/
+/*    margin-top:100px;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:black;*/
+/*    overflow:hidden;*/
+/*    display:inline-block;*/
+/*    position:absolute;*/
+/*}*/
+/*.content3 {*/
+/*    margin-left:75px;*/
+/*    margin-top:50px;*/
+/*    width:50px;*/
+/*    height:50px;*/
+/*    background-color:green;*/
+/*}*/
+/*bfc
+ block format context
+ 如何触发一个盒子的bfc
+ position:absolute;
+ display:inline-block;
+ float:left/right;
+ overflow:hidden;
+ */
+
+/*.box1 {*/
+/*    background-color:red;*/
+/*    margin-right:100px;*/
+/*}*/
+/*.box2 {*/
+/*    background-color:green;*/
+/*    margin-left:100px;*/
+/*}*/
+/*.demo1 {*/
+/*    background-color:red;*/
+/*    margin-bottom:100px;*/
+/*}*/
+/*.demo2 {*/
+/*    background-color:green;*/
+/*    margin-top:100px;*/
+/*}*/
+/*.wrapper {*/
+/*    overflow:hidden;*/
+/*}*/
+
+
+/*.wrapper {*/
+/*    width:400px;*/
+/*    height:300px;*/
+/*    border:1px solid black;*/
+/*}*/
+/*.content {*/
+/*    float:left;*/
+/*    height:100px;*/
+/*    width:100px;*/
+/*    margin-left:10px;*/
+/*图表排列*/
+/*    margin-bottom:10px;*/
+/*    color:#fff;*/
+/*    background-color:black;*/
+/*}*/
+/*.box {*/
+/*    float:left;*/
+/*    width:100px;*/
+/*    height:100px;*/
+/*    background-color:black;*/
+/*    opacity:0.5px;*/
+/*}*/
+/*.demo {*/
+/*    width:150px;*/
+/*    height:150px;*/
+/*    background-color:green;*/
+/*    opacity:0.5px;*/
+/*}*/
+/*怎么用父级包住子级元素*/
+
+/*.wrapper {*/
+/*    width:400px;*/
+/*    height:300px;*/
+/*    border:1px solid black;*/
+/*}*/
+/*.content {*/
+/*    float:left;*/
+/*    height:100px;*/
+/*    width:100px;*/
+/*    background-color:black;*/
+/*    color:#fff;*/
+/*}*/
+/*p元素清楚浮动流*/
+/*p {*/
+/*    clear:both;*/
+/*}*/
+
+
+
+/*设置了position：absolute； float：left 会从内部把元素转换为inline-block*/
+/*.content {*/
+/*    float:left;*/
+/*    height:100px;*/
+/*    width:100px;*/
+/*    background-color:black;*/
+/*    color:#fff;*/
+/*}*/
+/*利用伪元素clear清除浮动，必须是块级元素*/
+/*.wrapper::after {*/
+/*    content:"";*/
+/*    clear:both;*/
+/*    display:block;*/
+/*}*/
+/*标签前面伪元素*/
+/*选中伪元素*/
+/*span::after*/
+/*span::before {*/
+/*    content:"123";*/
+/*}*/
+/*导航栏写法*/
+.nav {
+    list-style:none;
+}
+.nav .list-item {
+    float:left;
+    margin:0 10px;
+    height:30px;
+    line-height:30px;
+}
+a {
+    text-decoration:none;
+}
+.nav .list-item a {
+    padding:0px 5px;
+    color:#f40;
+    font-weight:bold;
+    height:30px;
+    display:inline-block;
+    border-radius:15px;
+}
+.nav .list-item a:hover {
+    background-color:#f40;
+    color:#fff;
+}
+.nav::after {
+    content:"";
+    display:block;
+    clear:both;
+}
